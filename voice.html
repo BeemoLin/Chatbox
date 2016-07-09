@@ -1,0 +1,22 @@
+<!doctype html> 
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head> 
+<!--script language="javascript" src ="http://tts.itri.org.tw/TTScript/Text2SpeechJsApiV2.php?key=6119*3B8*3D*3A*2A*14*2A*3B*3B*60a*60dag"> </script--> 
+<script language="javascript" src ="./Text2SpeechJsApiV2"> </script>
+</head> 
+<body> 
+<div id="content"> 
+ [511漁民協會] 已於今晨捕獲2號機 安安
+</div>
+<div id="media"></div>
+<script language="javascript"> 
+    var tts = new TTS(); 
+    tts.muteTag = "id:mute|class:mute"; 
+    tts.PlayerSet.hidden = false;
+    tts.PlayerSet.width = 100; 
+    tts.PlayerSet.height = 30;
+    tts.ConvertInit("id:content","media","MCHEN_Joddess","100","0","0","0","5");
+</script>
+</body> 
+</html>
